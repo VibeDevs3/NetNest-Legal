@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — NetNest</title>
+  <meta name="description" content="NetNest Privacy Policy. Discover how our hybrid local-first architecture protects your family's browsing data and privacy.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%237C3AED'><path d='M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1 14.5l-3.5-3.5 1.41-1.41L11 13.67l5.09-5.09 1.41 1.41L11 16.5z'/></svg>">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo-badge">
+        <svg class="logo-icon" viewBox="0 0 24 24">
+          <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1 14.5l-3.5-3.5 1.41-1.41L11 13.67l5.09-5.09 1.41 1.41L11 16.5z"/>
+        </svg>
+        <span>NetNest Legal</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p>How we protect your family's personal information through our hybrid local-first architecture.</p>
+      
+      <nav class="nav-links">
+        <a href="index.html">Overview</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html" class="active">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="card">
+      <div class="meta-info">
+        <div><strong>Effective Date:</strong> October 13, 2026</div>
+        <div><span class="badge-tag">Version 1.0</span></div>
+      </div>
+
+      <div class="callout">
+        <h4>Our Core Privacy Commitment</h4>
+        <p><strong>Your home's browsing history never leaves your house.</strong> Unlike traditional cloud-based filtering tools that forward your family's internet traffic to remote servers, NetNest filters DNS queries locally on your home appliance. We never collect, inspect, monetize, or sell your family's web queries.</p>
+      </div>
+
+      <h2>1. Introduction</h2>
+      <p>VibeDevs3 ("NetNest", "we", "us", or "our") respects the privacy of your household and is committed to protecting it through compliance with this Privacy Policy. This policy explains what information we collect, how it is stored, and your rights when using the NetNest mobile applications, firmware, and services.</p>
+
+      <h2>2. The NetNest Local-First Data Architecture</h2>
+      <p>NetNest is built on a <strong>Hybrid Local-First Architecture</strong>, which creates a strict technical separation between what stays inside your home and what reaches the cloud:</p>
+      
+      <h3>A. Stored Exclusively on Your Local Appliance (Never Uploaded)</h3>
+      <ul>
+        <li><strong>DNS Queries &amp; Activity Logs:</strong> When devices in your home request web domains, logs are recorded exclusively on your local NetNest appliance's encrypted local database. These logs are never transmitted to NetNest cloud servers.</li>
+        <li><strong>Local Network Identity:</strong> Local IP addresses and MAC addresses of connected devices remain entirely within your local area network (LAN).</li>
+        <li><strong>Schedules and Rule Overrides:</strong> Category rules, bedtimes, and screen-time schedules are evaluated and stored directly on the appliance.</li>
+        <li><strong>Log Retention:</strong> Query logs on the local appliance are automatically purged after 30 days.</li>
+      </ul>
+
+      <h3>B. Information Stored in the Cloud</h3>
+      <p>To enable multi-device parental management and seamless mobile pairing, our cloud infrastructure (powered by Google Firebase and Supabase) stores minimal metadata:</p>
+      <ul>
+        <li><strong>Account Details:</strong> Your email address, display name, and unique user identifier (UID).</li>
+        <li><strong>Authentication Tokens:</strong> Cryptographically signed session tokens to verify parent login on your phone.</li>
+        <li><strong>Appliance Pairing Metadata:</strong> Cryptographic keys used to authorize your mobile app to securely communicate with your home appliance.</li>
+      </ul>
+
+      <h2>3. Children's Privacy (COPPA &amp; GDPR-K Compliance)</h2>
+      <p>The safety and privacy of children is the fundamental purpose of NetNest:</p>
+      <ul>
+        <li>We comply with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> in the United States and <strong>GDPR-K</strong> in the European Union.</li>
+        <li>Our service is marketed and provided strictly to <strong>parents, legal guardians, and adults</strong>. We do not knowingly collect personal contact information directly from children under the age of 13 (or under 16 in the European Economic Area).</li>
+        <li>Child profiles created in the NetNest application (e.g., assigning a name or avatar to a group of household devices) are managed entirely by the parent and are treated with strict confidentiality.</li>
+      </ul>
+
+      <h2>4. How We Use Information</h2>
+      <p>The minimal cloud data we collect is used solely to:</p>
+      <ul>
+        <li>Authenticate parents into the NetNest mobile application.</li>
+        <li>Facilitate secure pairing between your mobile device and your home NetNest appliance.</li>
+        <li>Provide essential account management and security notifications (e.g., password reset emails).</li>
+        <li>Deliver technical support when requested by you.</li>
+      </ul>
+      <p><strong>We never sell, rent, license, or trade your data or your family's web activity to advertisers, data brokers, or third parties under any circumstances.</strong></p>
+
+      <h2>5. Security of Your Information</h2>
+      <p>We implement senior-grade technical and organizational safeguards:</p>
+      <ul>
+        <li>Sensitive tokens and credentials on Android devices are encrypted utilizing Android Keystore and EncryptedSharedPreferences/DataStore.</li>
+        <li>All cloud communications utilize Transport Layer Security (TLS 1.3) with strict certificate validation.</li>
+        <li>Passwords are hashed using industry-standard salted hashing algorithms (Argon2 / Bcrypt) and cannot be read by NetNest personnel.</li>
+      </ul>
+
+      <h2>6. Your Privacy Rights &amp; Data Control</h2>
+      <p>Depending on your jurisdiction, you have the following rights:</p>
+      <ul>
+        <li><strong>Data Access &amp; Portability:</strong> Request details about personal account information associated with your login.</li>
+        <li><strong>Right to Deletion:</strong> You can delete your cloud account at any time through the app or by emailing us.</li>
+        <li><strong>Local Reset:</strong> You can wipe all local logs, schedules, and device assignments directly from the NetNest box at any time with a physical or software factory reset.</li>
+      </ul>
+
+      <h2>7. Third-Party Service Providers</h2>
+      <p>We utilize trusted enterprise infrastructure providers to operate cloud services:</p>
+      <ul>
+        <li><strong>Google Firebase Authentication:</strong> For user identity and Google Sign-In verification.</li>
+        <li><strong>Supabase:</strong> For cloud relational metadata storage with Row Level Security (RLS).</li>
+        <li><strong>Quad9:</strong> Default secure, non-logging upstream DNS resolver configured on the appliance.</li>
+      </ul>
+
+      <h2>8. Updates to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When changes occur, we will revise the "Effective Date" above and provide prominent in-app notification before the changes take effect.</p>
+
+      <h2>9. Contact Us</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your family's privacy, please reach out to our dedicated privacy team:</p>
+      <p><strong>Email:</strong> <a href="mailto:privacy@netnest.app">privacy@netnest.app</a><br>
+         <strong>Support:</strong> <a href="mailto:support@netnest.app">support@netnest.app</a><br>
+         <strong>GitHub:</strong> <a href="https://github.com/VibeDevs3/NetNest" target="_blank" rel="noopener">github.com/VibeDevs3/NetNest</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 VibeDevs3 / NetNest. All rights reserved.</p>
+    <p>
+      <a href="index.html">Legal Hub</a> &bull; 
+      <a href="terms.html">Terms &amp; Conditions</a> &bull; 
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+  </footer>
+
+</body>
+</html>
